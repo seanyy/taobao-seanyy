@@ -1,0 +1,277 @@
+html{
+	font-size: 10px;
+}
+*{
+	box-sizing: border-box;
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 14px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 15px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 17px !important;}
+}
+body{
+	background: #F7F7F7;
+}
+.head{
+	width: 100%;
+	height: 18rem;
+	padding: 1rem;
+	color: white;
+	background: linear-gradient(to right,#ff8300,#ff5000);
+	font-size: 1.2rem;
+}
+.head>.head-top{
+	width: 100%;
+	height: 3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1rem 0;
+}
+.head>.head-top p{
+	font-size: 1.6rem;
+}
+.head>.head-top{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+section{
+	margin: 0 auto;
+	width: 94%;
+	background: white;
+	padding:1rem;
+	border-radius: 1rem;
+	margin-top: -7rem;
+}
+section ul{
+	width: 100%;
+	display: flex;
+	padding: 1rem 0;
+}
+section ul li{
+	float: none;
+	/* border: 1px solid; */
+}
+section ul li img{
+	width: 100%;
+}
+section ul .li1{
+	width: 10%;
+	padding-top: 4rem;
+}
+section ul .li2{
+	width: 40%;
+}
+section ul .li3{
+	width: 50%;
+}
+section ul .li3>p{
+	font-size: 1.3rem;
+}
+
+.shop-top{
+	display: flex;
+	height: 3rem;
+	align-items: center;
+	font-size: 1.4rem;
+}
+.shop-top>p{
+	margin-left: 1rem;
+}
+.shop-top>p span{
+	color: gray;
+	font-size: 1.3rem;
+}
+.tb{
+	width: 2rem;
+	height: 2rem;
+	background: white;
+	border-radius: 50%;
+	border: 1px solid gray;
+	color: black;
+	line-height: 2rem;
+	text-align: center;
+}
+section ul .li3 b{
+	font-size: 1.3rem;
+	color: #FF5000;
+}
+section ul .li3 i{
+	display: inline-block;
+	color: #FF5000;
+	font-size: 1.4rem;
+	margin-top: 1rem;
+}
+section ul .li3 .texts{
+	margin-top: 4.5rem;
+}
+section ul .li3 .texts>div{
+	float: right;
+	margin-top: 0.8rem;
+	display: inline-block;
+	margin-left: 1rem;
+}
+section ul .li3 .texts>div input{
+	padding: 0.5rem 1rem;
+	margin-left: -0.4rem;
+	background: white;
+	border: 1px solid gray;
+}
+
+
+section ul .li3 .text1{
+	width: 100%;
+	height: 4rem;
+	font-size: 1.4rem;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;/* 超出隐藏 */
+	text-overflow: ellipsis;/* 超出显示三个点 */
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	/* white-space: normal; /* 超出不换行 */ 
+	-webkit-box-orient: vertical;
+}
+.hide { 
+	display: none;
+}
+.select{ 
+	float: left;
+	position: absolute; 
+	color: grey;
+	border-radius: 5px 0 0 5px;
+	margin-top: 1rem;
+}
+.select .input_in input { 
+	width:100%; 
+	height: 2.5rem; 
+	line-height: 20px; 
+	border: 0; 
+	cursor: pointer; 
+	background: #F2F2F2;
+	padding-left: 1rem;
+	color: gray;
+	font-size: 1.2rem;
+}
+.select .input_in>span{
+	position: absolute;
+	right: 1rem;
+	font-size: 1.2rem;
+	top: 0.5rem;
+}
+.xuanzhuan{
+	transform: rotate(180deg);
+}
+.select .city { 
+	z-index: 3;
+	position: relative;
+	left: 0; 
+	background: white;
+}
+.select .city ul {
+	display: flex;
+	flex-direction: column;
+	/* width: 186px; */
+	border-top: none; 
+	padding: 0;
+}
+.select .city ul li { 
+	width: 100%!important;
+	ursor: pointer;
+	border: 1px solid #F2F2F2;
+	padding: 0.5rem 1rem;
+	font-size: 1.2rem;
+	top: 0;
+}
+
+
+.tb span{
+	display: none;
+}
+.orange{
+	width: 2rem;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	background: linear-gradient(to right,#ff7d00,#ff5700)!important;
+	border: 0!important;
+	color: white!important;
+	border-radius: 50%;
+}
+.jiesuan{
+	position: fixed;
+	width: 100%;
+	bottom: 4.5rem;
+	background: white;
+	height: 5.4rem;
+	border-bottom: 1px solid #F2F2F2;
+	padding: 0 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.jiesuan>div{
+	/* width: 50%; */
+	display: flex;
+	align-items: center;
+}
+.jiesuan>div p{
+	margin-left: 1rem;
+	font-size: 1.3rem;
+	color: gray;
+}
+.jiesuan>div i{
+	font-size: 1.4rem;
+	margin: 0 1rem;
+}
+.jiesuan>div i span{
+	color: #FF5000;
+}
+.jiesuan>div button{
+	padding: 0 1rem;
+	line-height: 3rem;
+	border-radius: 25px;
+	border: 0;
+	background: linear-gradient(to right,#ff8f00,#ff5000);
+	color: white;
+	font-size: 1.4rem;
+}
+.a{
+	height: 10.5rem;
+}
+/* .no{
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	color: gray;
+	font-size: 1.2rem;
+} */
+.tt{
+	display: none;
+	z-index: 5;
+	position: fixed;
+	width: 50%;
+	left: 25%;
+	font-size:2rem;
+	padding: 1rem 2rem;
+	font-weight: bold;
+	text-align: center;
+	top: 45%;
+	color: white;
+	background: rgb(44,44,44,0.5);
+}
+.ab{
+	color: white;
+}

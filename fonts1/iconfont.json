@@ -1,0 +1,30 @@
+{
+  "id": "1693279",
+  "name": "taobao",
+  "font_family": "iconfont",
+  "css_prefix_text": "",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "842057",
+      "name": "30天保障",
+      "font_class": "icon-ensure-30",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "1599666",
+      "name": "钻石",
+      "font_class": "classify_zuanleishipin",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "12212585",
+      "name": "假一赔十",
+      "font_class": "jiayipeishi",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    }
+  ]
+}

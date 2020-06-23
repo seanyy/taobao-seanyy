@@ -1,0 +1,250 @@
+html{
+	font-size: 10px;
+}
+body{
+	background: #f2f2f2;
+}
+div{
+	box-sizing: border-box;
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 14px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 15px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 17px !important;}
+}
+
+header{
+	width: 100%;
+	height: 13.5rem;
+	background: linear-gradient(to right,#fd9025,#ff5101);
+	padding: 15px 0px 0;
+	color: white;
+}
+header .head-top{
+	width: 100%;
+	display: flex;
+}
+header .head-top>img{
+	width: 14%;
+	border-radius: 50%;
+	margin: 15px;
+	border: 1px solid;
+}
+header .head-top>div{
+	width: 72%;
+	display: flex;
+	justify-content: space-between;
+}
+header .head-top>div span{
+	font-size: 2rem;
+	margin-left: 15px;
+}
+header .head-bottom{
+	width: 100%;
+	height: 5rem;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+header .head-bottom div{
+	width: 20%;
+	line-height: 2rem;
+	font-size: 1.2rem;
+}
+
+
+section{
+	margin: 0 auto;
+	width: 95%;
+	/* height: 43.5rem; */
+	padding-bottom: 10px;
+}
+section>.content1{
+	width: 100%;
+	background: white;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding-bottom: 1rem;
+}
+section>.content1>.content1-top{
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+	overflow: hidden;
+}
+section>.content1>.content1-top a{
+	color: gray;
+}
+section>.content1>.content1-zj{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	text-align: center;
+}
+section>.content1>.content1-zj div{
+	position: relative;
+}
+section>.content1>.content1-zj .p1:before{
+	position: absolute;
+	top: 0;
+	left: 1.8rem;
+	content: "2";
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	background: white;
+	color: #FF6600;
+	line-height: 1.6rem;
+	border: 1px solid #FF6600;
+}
+section>.content1>.content1-zj .p2:before{
+	position: absolute;
+	top: 0;
+	left: 1.8rem;
+	content: "4";
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	background: white;
+	color: #FF6600;
+	line-height: 1.6rem;
+	border: 1px solid #FF6600;
+}
+section>.content1>.content1-zj .p3:before{
+	position: absolute;
+	top: 0;
+	left: 1.5rem;
+	content: "8";
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	background: white;
+	color: #FF6600;
+	line-height: 1.6rem;
+	border: 1px solid #FF6600;
+}
+section>.content1>.content1-zj span{
+	font-size: 2.4rem;
+	color: #FF6600;
+	
+}
+section>.content1>.content1-bottom{
+	margin: 0 auto;
+	width: 94%;
+	height: 6.2rem;
+	background: #f2f2f2;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+section>.content1>.content1-bottom .div1{
+	width: 100%;
+	height: 2rem;
+	display: flex;
+	justify-content: space-between;
+	color: gray;
+}
+section>.content1>.content1-bottom .div2{
+	width: 100%;
+	display: flex;
+}
+section>.content1>.content1-bottom .div2 img{
+	width: 11%;
+	border-radius: 5px;
+	margin: 0 10px 0 0;
+}
+section>.content1>.content1-bottom .div2 div{
+	margin-top: -8px;
+	overflow: hidden;
+}
+section>.content1>.content1-bottom .div2 div p{
+	white-space: nowrap;/* 超出不换行 */
+	overflow: hidden;/* 超出隐藏 */
+	text-overflow: ellipsis;/* 超出显示三个点 */
+	color: gray;
+}
+section>.content1>.content1-bottom .div2 div span{
+	color: #0086B3;
+	font-size: 1.6rem;
+}
+section>.content1>.content1-bottom .div2 div span span{
+	position: relative;
+	top: -3px;
+	font-size: 0.8rem;
+}
+
+section>.content2{
+	width: 100%;
+	background: white;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding-bottom: 1rem;
+}
+section>.content2>.content2-top{
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+}
+section>.content2>.content2-top a{
+	color: gray;
+}
+section>.content2>.content2-bottom{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+section>.content2>.content2-bottom div{
+	text-align: center;
+	margin-top: 15px;
+	width: 25%;
+}
+section>.content2>.content2-bottom div img{
+	width: 50%;
+}
+.a{
+	width: 100%;
+	height: 4.5rem;
+}
+/* 底部固定导航 */
+.nav1{
+	position: fixed;
+	height: 4.5rem;
+	width: 100%;
+	bottom: 0;
+	background: white;
+}
+.nav1 ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.nav1 li{
+	text-align: center;
+}
+.nav1 span{
+	font-size: 2.2rem;
+	line-height: 3rem;
+	color: grey;
+}
+.nav1 p{
+	color: gray;
+	font-size: 1rem;
+}

@@ -1,0 +1,78 @@
+html{
+	font-size: 10px;
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 14px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 15px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 17px !important;}
+}
+.head{
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.head>img{
+	margin-top: 3rem;
+	width: 22%;
+}
+.head>div{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.head>div .img2{
+	width: 4rem;
+	height: 4rem;
+}
+.head>div>.img1{
+	width: 60%;
+}
+form{
+	margin: 0 auto;
+	width: 95%;
+}
+form input{
+	width: 95%;
+	border: 0;
+	border-bottom: 1px solid #FF6600;
+	outline: none;
+	padding: 5px;
+	margin-top: 40px;
+}
+form div{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 5px;
+}
+form div a{
+	font-size: 1.2rem;
+	color: #FF6600;
+	opacity: 0.9;
+	text-decoration: none;
+}
+.login{
+	width: 100%;
+	border: 0;
+	background:linear-gradient(to right,#ff8e00,#FF6600);
+	line-height: 3rem;
+	color: white;
+	font-size: 1.4rem;
+	border-radius: 25px;
+}
+span{
+	color: red;
+	font-size: 1.2rem;
+}

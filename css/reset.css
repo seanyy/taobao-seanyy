@@ -1,0 +1,88 @@
+
+html {
+  font-size:100%;
+  height: 100%; 
+}
+body {
+  background-color: #fff;
+  font-family: Helvetica,"Microsoft Yahei",-apple-system,Arial,sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { 
+  margin:0; 
+  padding:0; 
+  outline: 0;
+}
+input,button,select,textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  outline:none;
+}
+ol,ul,li{
+  list-style:none;
+}
+b,i,u{
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+table{
+  border-collapse:collapse;
+}
+a{
+  text-decoration:none; 
+  outline:none;
+}
+
+
+.clearfix:after{
+  content:"\0020"; 
+  height:0; 
+  display:block; 
+  clear:both; 
+  overflow:hidden
+}
+.cutfont {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.fl   {float:left;}
+.fr   {float:right;}
+.posir{position:relative;}
+.tl   {text-align:left;}
+.tc   {text-align:center;}
+.tr   {text-align:right;}
+.tj   {text-align:justify;}
+.tjs  {text-align:justify;}
+.tjs:after  {
+    content:"";
+    display: inline-block;
+    width:100%;
+    height:0px;
+}
+.tc{text-align:center}
+.tl{text-align:left} 
+.tr{text-align:right}
+.fb{font-weight:bold}
+.cutFont{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.black  { color:#000}
+.blue   { color:#06c}
+.brown  { color:#666}
+.gray   { color:#999}
+.green  { color:#2d9b01}
+.orange { color:#f60}
+.yellow { color:#ff0; }
+.red    { color:#f23838}
+.white  { color:#fff}
+.bgBlack  { background-color:#000}
+.bgBlue   { background-color:#06c}
+.bgBrown  { background-color:#666}
+.bgGray   { background-color:#999}
+.bgGreen  { background-color:#2d9b01}
+.bgOrange { background-color:#f60}
+.bgYellow { background-color:#ff0; }
+.bgRed    { background-color:#f23838}
+.bgWhite  { background-color:#fff}

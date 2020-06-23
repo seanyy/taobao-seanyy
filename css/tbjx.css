@@ -1,0 +1,234 @@
+html{
+	font-size: 10px;
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 14px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 15px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 17px !important;}
+}
+body{
+	background: #f2fafe;
+}
+/* 头部菜单 */
+nav{
+	position: fixed;
+	width: 100%;
+	height: 5.2rem;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+nav .tb{
+	font-size: 2.6rem;
+}
+nav img{
+	width: 55%;
+}
+.container1{
+	padding-top: 5.2rem;
+	width: 100%;
+}
+.container1>img{
+	max-width: 100%;
+}
+.container1 .title{
+	margin: 10px auto 0px ;
+	width: 89%;
+	height: 5rem;
+	background: white;
+	border-radius: 5px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.container1 .title p{
+	width: 75%;
+	font-size: 1.4rem;
+}
+.container1 .title i span{
+	font-size: 1.2rem;
+	line-height: 2.5rem;
+}
+.container1 .title b{
+	width: 25%;
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-align: right;
+}
+.container1 .title input{
+	padding: 0 10px;
+	height: 2rem;
+	font-size: 1.2rem;
+	background: #cf3c36;
+	color: white;
+	border: 1px solid wheat;
+	border-radius:25px;
+}
+.container1 .title p>span{
+	color: red;
+}
+.container1 h3{
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 10px;
+}
+.container1 .xinxi{
+	margin: 0 auto;
+	width: 70%;
+	background: white;
+	padding: 8px 30px;
+	border: 1px solid black;
+	background: linear-gradient(to right,#95cdf8,#95c8eb,#ffffff);
+	margin-top: 10px;
+}
+section{
+	margin: 0 auto;
+	width: 97%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 5px;
+}
+section>div{
+	width: 48%;
+	height: auto;
+	background: white;
+	border-radius: 5px;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 10px;
+}
+section>div img{
+	width: 80%;
+}
+section>div .texts{
+	padding-left: 1rem;
+	text-align: left!important;
+	line-height: 1.8rem;
+}
+section>div p{
+	text-align: left;
+	font-size: 1.2rem;
+}
+section>div b{
+	display: block;
+	width: -webkit-fit-content;
+	text-align: left;
+	font-size: 1.1rem;
+	border: 1px solid #ff0036;
+	border-radius: 5px;
+	padding: 0 1px;
+	color: #ff0036;
+}
+section>div i{
+	line-height: 3rem;
+	color: #FF0036;
+	font-size: 1.3rem;
+}
+section>div span{
+	font-size: 1.1rem;
+	color: gray;
+	text-decoration: line-through;
+	margin-left: 1rem;
+}
+/* 回到顶部 */
+.gotop{
+	z-index: 3;
+	position: fixed;
+	width: 4.5rem;
+	height: 4.5rem;
+	border: 1px solid gray;
+	bottom: 6rem;
+	right: 1rem;
+	background: white;
+	border-radius: 50%;
+	text-align: center;
+	color: gray;
+	/* transform: rotate(-180deg); */
+	transition: all 0.5s;
+}
+.seeall{
+	margin: 0 auto;
+	margin-top: 10px;
+	width:95%;
+	background: white;
+	border-radius: 5px;
+	line-height: 40px;
+	text-align: center;
+}
+.seeall>a{
+	color: gray;
+	font-size: 1.5rem;
+}
+.gotop>span{
+	font-size: 2.5rem;
+	line-height: 3.2rem;
+	transform: rotate(-180deg)!important;
+}
+.gotop:before{
+	position: absolute;
+	content: "顶部";
+	font-size: 1.2rem;
+	top: 2.8rem;
+}
+.img1{
+	width: 100%;
+}
+.img1>img{
+	max-width: 100%;
+}
+.con1{
+	margin-top: -30px;
+	text-align: center;
+}
+.footer{
+	padding: 0;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+.footer .top1 img{
+	width: 100%;
+}
+.footer .zj{
+	margin-top: -5px;
+	width: -webkit-fit-content;
+	background: #f6b931;
+	padding: 20px;
+	color: white;
+	display: flex;
+}
+.footer .zj>div{
+	width: 50%;
+}
+.footer .zj div div{
+	margin-top: 20px;
+}
+.footer .zj div div h3{
+	margin-top: 5px;
+}
+.footer .zj div img{
+	width:50%;
+}
+.footer .zj .zj-left img{
+	width:80%;
+}
+.footer .zj .zj-right img{
+	width:50%;
+}
+.footer .zj .zj-right{
+	text-align: right;
+}
